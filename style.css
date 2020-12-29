@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html body{
+    background-color: #323232;
+}
+
+.card h1{
+    text-align: center;
+    font-size:32px;
+}
+
+.card{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 50%;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 10px 20px #000000;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.scorekeep{
+    align-items: center;
+    text-align: center;
+}
+
+#buttoncontrol{
+    width: 100%;
+}
+
+#buttoncontrol button{
+    width: 100%;
+}
+
+button{
+    height: 4rem;
+}
+
+#player1btn{
+    background-color: cornflowerblue;
+    color:white;
+    border:none;
+    border-radius:10px 0px 0px 10px;
+    transition: all 0.1s linear;
+    
+}
+
+
+#player1btn:hover{
+    background-color: rgb(68, 100, 158);
+    border:2px solid cornflowerblue;
+    font-weight: bold;
+}
+
+
+#player2btn{
+    background-color:coral;
+    color:white;
+    border:none;
+    border-radius: 0;
+    transition: all 0.1s linear;
+}
+
+#player2btn:hover{
+    background-color: rgb(175, 88, 56);
+    border:2px solid coral;
+    font-weight: bold;
+}
+
+#resetbtn{
+    background-color: crimson;
+    color:white;
+    border:none;
+    border-radius:0px 10px 10px 0px;
+    transition: all 0.1s linear;
+}
+
+#resetbtn:hover{
+    background-color:rgb(122, 13, 35);
+    border:2px solid crimson;
+    font-weight: bold;
+}
+
+.disable{
+    background-color: grey!important;
+    border:2px solid grey!important;
+    font-weight: normal!important;
+}
+
+.win{
+    color:greenyellow!important;
+}
+
+.lose{
+    color:red!important;
+}
